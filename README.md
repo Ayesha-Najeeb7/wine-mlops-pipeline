@@ -41,3 +41,4 @@ tests/            data tests + model quality gate
 `main` stays clean; work happens on `feature/*` branches merged via pull request.
 
 MLflow runs are tracked in a local SQLite store (mlflow.db).
+The CI quality gate blocks models below macro F1 0.88.
