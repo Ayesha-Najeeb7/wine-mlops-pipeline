@@ -39,3 +39,5 @@ tests/            data tests + model quality gate
 ## Branching
 
 `main` stays clean; work happens on `feature/*` branches merged via pull request.
+
+MLflow runs are tracked in a local SQLite store (mlflow.db).
