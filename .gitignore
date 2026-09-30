@@ -1,0 +1,23 @@
+# MLflow
+mlruns/
+mlflow.db
+mlartifacts/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+
+# Transient model artifacts
+*.pkl
+*.joblib
+*.onnx
+model/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
