@@ -16,7 +16,7 @@ EXPERIMENT_NAME = "Wine-Cultivar-Classification"
 MODEL_NAME = "WineClassifier"
 CHAMPION_ALIAS = "champion"
 DEFAULT_TRACKING_URI = "sqlite:///mlflow.db"
-CV_FOLDS = 5
+CV_FOLDS = 10
 
 # Model Family A
 RF_GRID = [
